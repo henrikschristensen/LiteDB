@@ -8,24 +8,23 @@
   </PropertyGroup>
 
   <PropertyGroup>
-    <PackageId>LiteDB</PackageId>
-    <Version>4.1.5</Version>
+    <Version>1.0.1</Version>
     <AssemblyVersion>4.1.5.0</AssemblyVersion>
     <FileVersion>4.1.5</FileVersion>
     <VersionPrefix>4.1.5</VersionPrefix>
-    <Authors>Maurício David</Authors>
-    <Product>LiteDB</Product>
-    <Description>LiteDB - A lightweight embedded .NET NoSQL document store in a single datafile</Description>
-    <Copyright>MIT</Copyright>
+    <Authors>NoOne</Authors>
+    <Product>FLiteDBorge</Product>
+    <Description>Non compatible Forge of LiteDB</Description>
+    <Copyright></Copyright>
     <NeutralLanguage>en-US</NeutralLanguage>
     <Title>LiteDB</Title>
-    <PackageId>LiteDB</PackageId>
-    <PackageTags>database nosql embedded</PackageTags>
-    <PackageIconUrl>http://www.litedb.org/img/logo_64x64.png</PackageIconUrl>
-    <PackageProjectUrl>https://www.litedb.org</PackageProjectUrl>
-    <PackageLicenseUrl>https://raw.github.com/mbdavid/LiteDB/master/LICENSE</PackageLicenseUrl>
-    <RepositoryUrl>https://github.com/mbdavid/LiteDB</RepositoryUrl>
-    <RepositoryType>git</RepositoryType>
+    <PackageId>FLiteDBorge</PackageId>
+    <PackageTags></PackageTags>
+    <PackageIconUrl></PackageIconUrl>
+    <PackageProjectUrl></PackageProjectUrl>
+    <PackageLicenseUrl></PackageLicenseUrl>
+    <RepositoryUrl></RepositoryUrl>
+    <RepositoryType></RepositoryType>
     <RootNamespace>LiteDB</RootNamespace>
     <AssemblyName>LiteDB</AssemblyName>
     <GenerateDocumentationFile>true</GenerateDocumentationFile>

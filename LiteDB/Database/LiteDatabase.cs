@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
@@ -82,14 +82,14 @@ namespace LiteDB
         /// <summary>
         /// Starts LiteDB database using a Stream disk
         /// </summary>
-        public LiteDatabase(Stream stream, BsonMapper mapper = null, string password = null, bool disposeStream = false)
+        public LiteDatabase(Stream stream, BsonMapper mapper = null, string password = null, bool disposeStream = false, bool useUtc = false)
         {
             if (stream == null) throw new ArgumentNullException(nameof(stream));
 
             _mapper = mapper ?? BsonMapper.Global;
             _log = new Logger();
 
-            _engine = new LazyLoad<LiteEngine>(() => new LiteEngine(new StreamDiskService(stream, disposeStream), password: password, log: _log));
+            _engine = new LazyLoad<LiteEngine>(() => new LiteEngine(new StreamDiskService(stream, disposeStream), password: password, log: _log, utcDate: useUtc));
         }
 
         /// <summary>
